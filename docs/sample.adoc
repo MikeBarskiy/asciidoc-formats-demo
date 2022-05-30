@@ -1,0 +1,51 @@
+image::https://www.tiny.cloud/docs/images/logos/android-chrome-256x256.png[TinyMCE Logo]
+
+== Welcome to the TinyMCE Cloud demo!
+
+Please try out the features provided in this full featured example (excluding https://www.tiny.cloud/tinymce/features/[Premium Plugins] ).
+
+== Got questions or need help?
+
+*   Our https://www.tiny.cloud/docs/tinymce/6/[documentation];
+is a great resource for learning how to configure TinyMCE.
+*   Have a specific question? Try the https://stackoverflow.com/questions/tagged/tinymce[``tinymce`` tag
+    at Stack Overflow].
+*   We also offer enterprise grade support as part of https://www.tiny.cloud/pricing[TinyMCE
+    premium plans].
+
+== A simple table to play with
+
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<thead>
+<tr>
+<th>Product</th>
+<th>Cost</th>
+<th>Really?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TinyMCE Cloud</td>
+<td>Get started for free</td>
+<td>YES!</td>
+</tr>
+<tr>
+<td>Plupload</td>
+<td>Free</td>
+<td>YES!</td>
+</tr>
+</tbody>
+</table>
+
+== Found a bug?
+
+If you think you have found a bug please create an issue on the https://github.com/tinymce/tinymce/issues[GitHub repo] to report it to the developers.
+
+== Finally ...
+
+Don't forget to check out our other product http://www.plupload.com[Plupload], your ultimate upload
+solution featuring HTML5 upload support.
+
+Thanks for supporting TinyMCE! We hope it helps you and your users create great content.
+All
+the best from the TinyMCE team.
