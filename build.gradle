@@ -27,7 +27,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'commons-io:commons-io:2.11.0'
     implementation 'org.asciidoctor:asciidoctorj:2.5.3'
-    implementation 'org.asciidoctor:asciidoctorj-pdf:2.0.4'
+    implementation 'org.asciidoctor:asciidoctorj-pdf:2.1.4'
     implementation 'io.nxnet.html2adoc:html2adoc:0.0.2-RC3'
 
     compileOnly 'org.projectlombok:lombok'

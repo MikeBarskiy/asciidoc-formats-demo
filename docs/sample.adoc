@@ -1,51 +1,104 @@
-image::https://www.tiny.cloud/docs/images/logos/android-chrome-256x256.png[TinyMCE Logo]
+:doctype: article
 
-== Welcome to the TinyMCE Cloud demo!
+= Паспорт стрима T4IT
+:id: 1
+:type: Паспорт стрима
 
-Please try out the features provided in this full featured example (excluding https://www.tiny.cloud/tinymce/features/[Premium Plugins] ).
+== 1. Общая информация по стриму
+:id: 5
+:type: group
+:order: 1
 
-== Got questions or need help?
+:versionTime: 2022-03-23T14:41:44
+:id: 21
+:source: КРОСС
+:type: text
+:versionNumber: 1
+:order: 1
 
-*   Our https://www.tiny.cloud/docs/tinymce/6/[documentation];
-is a great resource for learning how to configure TinyMCE.
-*   Have a specific question? Try the https://stackoverflow.com/questions/tagged/tinymce[``tinymce`` tag
-    at Stack Overflow].
-*   We also offer enterprise grade support as part of https://www.tiny.cloud/pricing[TinyMCE
-    premium plans].
+----
+Название стрима в КРОСС:IT4IT
+----
 
-== A simple table to play with
+:versionTime: 2022-03-23T14:41:44
+:id: 22
+:type: text
+:versionNumber: 2
+:order: 2
 
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<thead>
-<tr>
-<th>Product</th>
-<th>Cost</th>
-<th>Really?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>TinyMCE Cloud</td>
-<td>Get started for free</td>
-<td>YES!</td>
-</tr>
-<tr>
-<td>Plupload</td>
-<td>Free</td>
-<td>YES!</td>
-</tr>
-</tbody>
-</table>
+----
+Назначение стрима:Создать в Банке технологические возможности и потенциал, чтобы стать ключевым игроком в цифровом мире, путем создания в Банке передовой инфраструктуры и процессов производства
+----
 
-== Found a bug?
+=== Кураторы стрима
+:type: group
+:order: 3
+:pagewidth:
 
-If you think you have found a bug please create an issue on the https://github.com/tinymce/tinymce/issues[GitHub repo] to report it to the developers.
+:versionTime: 2022-03-23T14:41:44
+:source: КРОСС
+:type: text
+:versionNumber: 2
+:order: 1
 
-== Finally ...
+----
+Куратор стрима:Иванов Иван
+----
 
-Don't forget to check out our other product http://www.plupload.com[Plupload], your ultimate upload
-solution featuring HTML5 upload support.
+:versionTime: 2022-03-23T14:41:44
+:source: КРОСС
+:type: text
+:versionNumber: 1
+:order: 2
 
-Thanks for supporting TinyMCE! We hope it helps you and your users create great content.
-All
-the best from the TinyMCE team.
+----
+ИТ-Куратор стрима:Петров Петр
+----
+
+=== Ключевые результаты стрима:
+:versionTime: 2022-03-23T14:41:44
+:id: 25
+:type: table
+:versionNumber: 2
+:order: 5
+
+[cols=".^4a,.^4a,.^4a,.^4a"]
+|===
+<.<|Тип показателя
+
+
+<.<|Описание
+
+
+<.<|Вес на 2021,%
+
+
+<.<|Целевые значения на 2021
+
+
+
+<.<|Бизнес
+
+
+<.<|Количество сделок в день
+
+
+<.<|10
+
+
+<.<|150000
+
+<.<|Технологические
+
+
+<.<|Название
+
+
+<.<|20
+
+
+<.<|320000
+
+
+
+|===

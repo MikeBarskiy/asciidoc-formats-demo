@@ -28,30 +28,32 @@ var toAsciidoc = function (string, document) {
   // table converter
   var tables = all.querySelectorAll("table");
   for (var i = 0; i < tables.length; i++) {
-    var tablePrefix = "\n\n|====\n";
-    var tableSuffix = "|====\n";
+    var tableBoundary = "|====\n";
     var tableText = "";
-    tableText += tablePrefix;
     var table = tables[i];
     var trs = table.querySelectorAll("tr");
+    var caption = table.querySelector("caption");
+
+    tableText += "\n\n";
+    if (caption)
+      tableText += "." + caption.innerText.replace(/Table \d+\. /, "") + "\n";
+    tableText += tableBoundary;
 
     for (var j = 0; j < trs.length; j++) {
       var tr = trs[j];
       var columns = tr.querySelectorAll("td");
-      if (columns.length == 0) {
+      if (columns.length == 0)
         columns = tr.querySelectorAll("th");
-      }
       var row = [].slice.call(columns).map(function (e) {
-        return "|" + e.textContent || e.innerText || "";
+        return "|" + (e.innerHTML ? traverse(e.innerHTML) : "");
       }).join(" ");
       tableText += row + "\n";
     }
 
-    tableText += tableSuffix;
+    tableText += tableBoundary;
 
-    if (table.parentNode) {
+    if (table.parentNode)
       table.parentNode.replaceChild(document.createTextNode(tableText), table);
-    }
   }
 
   // fix pre > code block
